@@ -1,0 +1,113 @@
+.container{
+    width: 500px;
+    margin: auto;
+}
+#grid-container{
+    margin-bottom: 50px;
+    width: 500px;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.field{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: solid;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+}
+.filled{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    color: white;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border: solid;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 25pt;
+}
+body{
+    background-color: black;
+}
+#score{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#tray{
+    width: 500px;
+    color: white;
+    display: flex;
+}
+#numbers{
+    display: flex;    
+    flex-direction: row-reverse;
+}
+.tray-number{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 94, 94);
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 25pt;
+}
+#keep{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 25pt;
+
+}
+#keep-container{
+    width: 105px;
+    height: 105px;
+    background-color: white;
+    text-align: center;
+    border: solid;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#menu{
+
+    width: 600px;
+    height: 700px;
+    position: fixed;
+    display: none;
+    align-items: center;
+    background-color: rgba(55, 55, 55, 0.7);
+    margin-left: calc(50vw - 300px) ;
+    margin-top: 20px;
+}
+#menu button{
+    font-size: 30pt;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+}
+#menu h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 50pt;
+    color: white;
+}
